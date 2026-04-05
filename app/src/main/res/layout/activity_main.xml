@@ -74,4 +74,17 @@
         android:background="@drawable/btn_neon_purple"
         android:elevation="4dp" />
 
+    <!-- Botón Registrar (como link) -->
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿No tienes cuenta? Regístrate"
+        android:textSize="14sp"
+        android:textColor="#A020F0"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground"
+        android:textStyle="normal" />
 </LinearLayout>
